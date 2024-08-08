@@ -559,7 +559,7 @@ message:
     list: "Zde je seznam všech rozvrhů: ```%s```"
   pickupline:
     response: ":speaking_head: %s"
-    responseNsfw: "red_circle: ||%s|| **NSFW**"
+    responseNsfw: ":red_circle: ||%s|| **NSFW**"
   money:
     notEnoughMoney: "Nemáte dost peněz!"
     withdraw: "Úspěšně jste vybrali %s$ z banky!"
