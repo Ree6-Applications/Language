@@ -608,7 +608,7 @@ command:
     cooldown: "Вы пока не можете переезжать"
     missingCommand: "Пожалуйста, укажите название группы"
     error: "❌ При выполнении этого заказа произошла ошибка!"
-    errorWithException: "There was an error while executing the Command!\nException: %s"
+    errorWithException: "❌ При выполнении этого заказа произошла ошибка!\nException: %s"
     internalError: "Произошла ошибка при выполнении команды!\nЕсли это повторится, пожалуйста, свяжитесь с нашей службой поддержки!\n<https://support.ree6.de>"
     notFound: "Команда не найдена"
     blocked: "Эта команда заблокирована!"
