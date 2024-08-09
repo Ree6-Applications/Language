@@ -16,4 +16,6 @@ files:
       - zh-CN.yml
       - ro.yml
       - pt-BR.yml
+      - vi-VN.yml
+      - it.yml
     translation: /%original_path%/%locale%.yml
