@@ -17,5 +17,5 @@ files:
       - ro.yml
       - pt-BR.yml
       - vi-VN.yml
-      - it.yml
+      - it-IT.yml
     translation: /%original_path%/%locale%.yml
