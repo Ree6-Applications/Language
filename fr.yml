@@ -1,7 +1,7 @@
 language:
   name: "Français (FR)"
   locale: "fr"
-  version: "3.1.2"
+  version: "4.0.0"
   author: "JerroNIMO, Axtazer"
 logging:
   banned: ":airplane_departure: %s **banni.**"
@@ -238,6 +238,7 @@ message:
       other: "L'anniversaire de %s a été supprimé!"
       noPerms: "Vous n'avez pas la permission de supprimer un anniversaire!"
     wish: "Joyeux anniversaire à <@%s> !"
+    list: "Voici tous les vœux d'anniversaire :\n```%s```"
   instagramNotifier:
     added: "Une notification Instagram a été créée pour l'utilisateur %s!"
     list: "Voici toutes les notifications Instagram qui ont été installées:\n```%s```"
@@ -444,6 +445,7 @@ message:
       20: "Très douteux."
   brs:
     autoRole:
+      user: "Ree6-BRS (Système de rapport de bogues)\nNous avons détecté que je n'étais pas autorisé à attribuer automatiquement un rôle à une personne spécifique - elle a un rôle supérieur au mien !\nS'il vous plaît, mettez mon rôle au-dessus du leur, afin que je puisse leur donner le rôle !\nL'utilisateur à qui je n'ai pas pu donner de rôle est ``%s`` !"
       missingPermission: "Ree6-BRS (système de rapport de bug)\nNous avons détecté que je ne suis pas autorisé à utiliser l'Autorole car il me manque la permission \"Manage Roles\" !\nJ'ai besoin de ce rôle pour attribuer des rôles aux utilisateurs !\nLe rôle que je ne peux attribuer est ``%s`` !"
       hierarchy: "Ree6-BRS (système de rapport de bug)\nNous avons détecté que je ne suis pas autorisé à utiliser l'Autorole car mon rôle actuel est inférieur au rôle Autorole !\nSVP, déplacez mon rôle au dessus du rôle Autorole !\nLe rôle qui a posé problème est ``%s`` !"
       deleted: "Ree6-BRS (système de rapport de bug)\nNous avons détecté que je ne peux utiliser l'Autorole avec les utilisateurs, car le rôle Autorole a été supprimé !\nNous allons maintenant supprimé le rôle attribué !"
