@@ -1,7 +1,7 @@
 language:
   name: "German"
   locale: "de"
-  version: "3.1.2"
+  version: "4.0.0"
   author: "Presti"
 logging:
   banned: ":airplane_departure: %s **gebannt.**"
@@ -238,6 +238,7 @@ message:
       other: "Der Geburtstag von %s wurde entfernt!"
       noPerms: "Du hast keine Berechtigung um Geburtstage zu entfernen!"
     wish: "Herzlichen Glückwunsch zum Geburtstag <@%s>!"
+    list: "Hier ist die Liste alles Geburtstage:\n```%s```"
   instagramNotifier:
     added: "Ein Instagram Notifier wurde für %s erstellt!"
     list: "Hier ist eine Liste mit allen Instagram Notifier:\n```%s```"
@@ -444,6 +445,7 @@ message:
       20: "Ich bezweifle es."
   brs:
     autoRole:
+      user: "Ree6-BRS (Bug-Report-System)\nWir haben erkannt das ich einem spezifischen Nutzer keine Rollen zuteilen kann, da ihre Rolle über meine ist!\nBitte platziere meine Rolle über die Rolle des Nutzers, damit ich diesem Rollen zuteilen kann.\nDer Nutzer, dem ich keine Rolle zuteilen konnte, ist ``%s``!"
       missingPermission: "Ree6-BRS (Bug-Report-System)\nWir haben erkannt das ich keine Rollen verteilen kann, da mir die Berechtigung ``Manage Roles`` fehlt!\nIch benötige diese, um Rollen an Nutzern zu verteilen!\nDie Rolle welche ich nicht zuteilen konnte: ``%s``!"
       hierarchy: "Ree6-BRS (Bug-Report-System)\nWir haben bemerkt, dass ich nicht genügend Berechtigungen habe, um die angegebene Rolle Nutzern zuzuweisen!\nBitte setze meine Rolle über diese angegebenen Rolle!\n``%s``"
       deleted: "Ree6-BRS (Bug-Report-System)\nWir haben bemerkt, dass eine bestimmte Rolle Nutzern nicht mehr zugewiesen werden kann.\nDa diese nicht mehr existiert, sie wurde aus dem System entfernt!"

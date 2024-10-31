@@ -1,7 +1,7 @@
 language:
   name: "Português (BR)"
   locale: "pt-BR"
-  version: "3.1.2"
+  version: "4.0.0"
   author: "louanfontenele"
 logging:
   banned: ":airplane_departure: %s **foi banido.**"
@@ -238,6 +238,7 @@ message:
       other: "O aniversário de %s foi removido!"
       noPerms: "Você não tem permissão para remover um aniversário!"
     wish: "Feliz aniversário para <@%s>!"
+    list: "Aqui estão todos os desejos de Aniversário:\n```%s```"
   instagramNotifier:
     added: "Um Notificador do Instagram foi criado para o usuário %s!"
     list: "Aqui estão todos os Notificadores do Instagram que foram configurados:\n```%s```"
@@ -444,6 +445,7 @@ message:
       20: "Muito duvidoso."
   brs:
     autoRole:
+      user: "Ree6-BRS (Bug-Report-System)\nDetectamos que não tenho permissão para colocar um Cargo Automático de uma pessoa específica, ela tem uma função que está acima da minha!\nPor favor, coloque minha função acima dela, para que eu possa dar a ela a função!\nO usuário para o qual não consegui dar uma função é ``%s``!"
       missingPermission: "Ree6-BRS (Sistema de Relatório de Bugs)\nDetectamos que não tenho permissão para atribuir funções automaticamente, pois estou sem a permissão ``Gerenciar Funções``!\nEu preciso dessa permissão para atribuir funções aos usuários!\nA função que não pude atribuir é ``%s``!"
       hierarchy: "Ree6-BRS (Sistema de Relatório de Bugs)\nDetectamos que não posso atribuir funções automaticamente, pois minha função está abaixo da função de atribuição automática!\nPor favor, mova minha função acima da função de atribuição automática!\nA função que está causando o problema é ``%s``!"
       deleted: "Ree6-BRS (Sistema de Relatório de Bugs)\nDetectamos que não posso atribuir funções automaticamente, pois a função de atribuição automática foi excluída!\nAgora removemos a função atribuída!"

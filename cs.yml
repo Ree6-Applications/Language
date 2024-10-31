@@ -1,7 +1,7 @@
 language:
   name: "Czech"
   locale: "cs"
-  version: "3.1.2"
+  version: "4.0.0"
   author: "Pogy__"
 logging:
   banned: ":airplane_departure: %s **zablokován.**"
@@ -238,6 +238,7 @@ message:
       other: "Narozeniny %s byly odstraněny!"
       noPerms: "Nemáte oprávnění k odstranění narozenin!"
     wish: "Všechno nejlepší k narozeninám <@%s>!"
+    list: "Zde jsou všechna přání k narozeninám:\n```%s```"
   instagramNotifier:
     added: "Bylo vytvořeno oznámení Instagram pro uživatele %s!"
     list: "Zde jsou všechny Instagram oznámení které byly nastaveny:\n```%s```"
@@ -444,6 +445,7 @@ message:
       20: "Velmi pochybné."
   brs:
     autoRole:
+      user: "Ree6-BRS (Bug-Report-System)\nZjistili jsme, že nemohu automaticky přidělit roli konkrétní osobě, která má roli vyšší než já!\nProsím, dejte mou roli nad ně, abych jim mohl roli přidělit!\nUživatel, kterému jsem nemohl přidělit roli, je ``%s``!"
       missingPermission: "Ree6-BRS (Bug-Report-System)\nZjistili jsme, že nemohu automaticky přidělovat role lidem, protože mi chybí oprávnění ``Správa rolí``!\nToto Oprávnění potřebuji, abych mohl uživatelům přidělovat role!\nRole, kterou jsem nemohl přidělit, je ``%s``!"
       hierarchy: "Ree6-BRS (Bug-Report-System)\nZjistili jsme, že nemohu automaticky přidělovat role lidem, protože moje role je pod rolí AutoRole-Role!\nProsím, přesuňte mou roli nad AutoRole-Role!\nRole, která způsobuje problém, je ``%s``!"
       deleted: "Ree6-BRS (Bug-Report-System)\nZjistili jsme, že nemohu AutoRole lidí, protože AutoRole-Role byla smazána!\nNyní jsme danou Roli odstranili!"
