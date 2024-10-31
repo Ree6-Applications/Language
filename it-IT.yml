@@ -1,7 +1,7 @@
 language:
   name: "Italian"
   locale: "it"
-  version: "3.1.2"
+  version: "4.0.0"
   author: "JamesTheFlash22"
 logging:
   banned: ":airplane_departure: %s **bannato.**"
@@ -238,6 +238,7 @@ message:
       other: "Il compleanno di %s è stato rimosso!"
       noPerms: "Non hai il permesso per rimuovere un compleanno!"
     wish: "Buon compleanno a <@%s>!"
+    list: "Ecco tutti gli auguri di compleanno:\n```%s```"
   instagramNotifier:
     added: "È stato creato un Notificatore Instagram per l'Utente %s!"
     list: "Ecco tutti i Notificatori Instagram che sono stati configurati:\n```%s```"
@@ -444,6 +445,7 @@ message:
       20: "Molto dubbioso."
   brs:
     autoRole:
+      user: "Ree6-BRS (Sistema di correzione degli errori)\nAbbiamo rilevato che non mi è permesso di assegnare un ruolo automatico a una persona specifica che ha un ruolo superiore al mio!\nPer favore, metti il mio ruolo al di sopra di loro, così posso assegnargli il ruolo!\nL'utente a cui non ho potuto assegnare un ruolo è ``%s``!"
       missingPermission: "Ree6-BRS (Bug-Report-System)\nAbbiamo rilevato che non ho il permesso di AutoRole poiché mi manca il permesso ``Manage Roles``!\nHo bisogno di questo permesso per assegnare ruoli agli utenti!\nIl ruolo che non sono riuscito a dare è ``%s``!"
       hierarchy: "Ree6-BRS (Bug-Report-System)\nAbbiamo rilevato che non posso AutoRole poiché il mio ruolo è sotto il ruolo di AutoRole!\nPer favore sposta il mio ruolo sopra il ruolo di AutoRole!\nIl ruolo che causa il problema è ``%s``!"
       deleted: "Ree6-BRS (Bug-Report-System)\nAbbiamo rilevato che non posso AutoRole poiché il ruolo di AutoRole è stato eliminato!\nOra abbiamo rimosso il ruolo assegnato!"
