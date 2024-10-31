@@ -1,7 +1,7 @@
 language:
   name: "Indonesia"
   locale: "id"
-  version: "3.1.2"
+  version: "4.0.0"
   author: "Gorengan_Hunter, SpyCat"
 logging:
   banned: ":airplane_departure: %s **telah diban.**"
@@ -238,6 +238,7 @@ message:
       other: "Ulang Tahun %s telah dihapus!"
       noPerms: "Kamu tidak punya izin untuk menghapus Ulang Tahun!"
     wish: "Selamat ulang tahun  <@%s>!"
+    list: "Berikut ini semua ucapan selamat ulang tahun:\n```%s```"
   instagramNotifier:
     added: "Pemberitahuan Instagram telah dibuat untuk %s!"
     list: "Dibawah ini daftar Notifier Instagram yang telah disetup:\n```%s```"
@@ -444,6 +445,7 @@ message:
       20: "sangat diragukan."
   brs:
     autoRole:
+      user: "Ree6-BRS (Sistem Laporan Bug)\nKami mendeteksi bahwa saya tidak diizinkan untuk memberikan peran otomatis kepada orang tertentu yang memiliki peran di atas peran saya!\nTolong letakkan peran saya di atas mereka, agar saya dapat memberikan peran kepada mereka!\nPengguna yang tidak dapat saya berikan peran adalah ``%s``!"
       missingPermission: "Ree6-BRS (Bug-Report-System)\nKami telah mendeteksi  kalau kami tidak punya izin untuk AutoRole seseorang, aku kehilangan izin ``Manage Roles``!\nKami butuh izin ini untuk memeberikan role ke orang lain!\nRole yang tidak bisa aku beri adalah ``%s``!"
       hierarchy: "Ree6-BRS (Bug-Report-System)\nKami telah mendeteksi  kalau kami tidak punya izin untuk AutoRole seseorang karena role kita dibawah AutoRole!\nMohon pindahkan role kita diatas AutoRole!\nRole yang menyebabkan masalah adalah ``%s``!"
       deleted: "Ree6-BRS (Bug-Report-System)\nKami telah mendeteksi  kalau kami tidak punya izin untuk AutoRole seseorang karena role AutoRole telah dihapus!\nKita telah mengambil lagi role yang diberikan!"
