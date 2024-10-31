@@ -1,7 +1,7 @@
 language:
   name: "Turkish"
   locale: "tr"
-  version: "3.1.2"
+  version: "4.0.0"
   author: "ImNotArian"
 logging:
   banned: ":airplane_departure: %s **Yasaklandı.**"
@@ -238,6 +238,7 @@ message:
       other: "%s'nin Doğum Günü kaldırıldı!"
       noPerms: "Bir Doğum Günü'nü kaldırma izniniz yok!"
     wish: "<@%s> için mutlu yıllar!"
+    list: "İşte tüm Doğum Günü dilekleri:\n```%s```"
   instagramNotifier:
     added: "%s Kullanıcısı için bir Instagram Bildiricisi oluşturuldu!"
     list: "İşte ayarlanan tüm Instagram Bildiricileri:\n```%s```"
@@ -444,6 +445,7 @@ message:
       20: "Çok şüpheli."
   brs:
     autoRole:
+      user: "Ree6-BRS (Hata-Report-Sistemi)\nBelirli bir kişiye Otomatik Rol Verme iznim olmadığını tespit ettik, benimkinin üzerinde bir rolleri var!\nLütfen benim rolümü onların üstüne koyun, böylece onlara rol verebilirim!\nRol veremediğim kullanıcı ``%s``!"
       missingPermission: "Ree6-BRS (Hata Rapor Sistemi)\n``Rolleri Yönet`` İznini kaçırdığım için kişileri Otomatik Role almama izin verilmediğini tespit ettik!\nKullanıcılara roller vermek için bu İzne ihtiyacım var!\nVeremediğim rol ``%s``!"
       hierarchy: "Ree6-BRS (Hata Rapor Sistemi)\nRolüm AutoRole-Role'un altında olduğu için insanları AutoRole'a almama izin verilmediğini tespit ettik!\nLütfen rolümü AutoRole-Role'un üzerine taşıyın!\nSoruna neden olan rol ``%s``!"
       deleted: "Ree6-BRS (Hata Rapor Sistemi)\nAutoRole-Role silindiği için insanları AutoRole yapamayacağımı tespit ettik!\nArtık verilen Rolü kaldırdık!"
