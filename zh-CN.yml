@@ -1,7 +1,7 @@
 language:
   name: "Chinese (CN)"
   locale: "zh-CN"
-  version: "3.1.2"
+  version: "4.0.0"
   author: "Alice"
 logging:
   banned: ":airplane_departure: %s **封禁**"
@@ -238,6 +238,7 @@ message:
       other: "%s 的生日已被移除！"
       noPerms: "你没有删除生日的权限！"
     wish: "祝 <@%s>生日快乐!"
+    list: "以下是所有生日祝福：\n```%s```"
   instagramNotifier:
     added: "已为用户 %s 创建了Instagram 通知程序！"
     list: "这里是所有已设置的 Instagram 通知程序：\n```%s```"
@@ -444,6 +445,7 @@ message:
       20: "非常可疑。"
   brs:
     autoRole:
+      user: "Ree6-BRS (错误报告系统)\n我们检测到我不能对特定人员自动分配角色，因为他们的角色高于我的角色！\n请将我的角色置于他们之上，这样我就可以赋予他们角色！\n我无法赋予角色的用户是 ``%s``!"
       missingPermission: "Ree6-BRS (Bug-Report-System)\n我们检测到，我不允许自动角色的人，因为我没有 ``Manager Roles`` 权限！\n我需要此权限才能赋予用户角色！\n我不能赋予的角色是 ``%s``！"
       hierarchy: "Ree6-BRS (Bug-Report-System)\n我们检测到，由于我的角色低于自动角色角色，我不允许自动角色！\n请将我的角色移到自动角色上面！\n导致问题的角色是 ``%s``！"
       deleted: "Ree6-BRS (Bug-Report-System)\n我们检测到，自从AutoRole 角色被删除以来，我不能自动角色！\n我们现在删除了给定的角色！"
